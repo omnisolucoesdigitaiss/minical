@@ -19,7 +19,6 @@ if (!file_exists($file)) {
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__. '/../')->load();
 
-
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
